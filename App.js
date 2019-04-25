@@ -28,7 +28,6 @@ export default class App extends Component {
   }
   render() {
     return (
-
         <WebView 
             automaticallyAdjustContentInsets = {false}
             source={{uri:'http://amnote.com.vn/news-page/'}}
@@ -46,7 +45,6 @@ export default class App extends Component {
               );
               console.log(this.state.click);
             }}
-
           />
     );
   }
